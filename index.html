@@ -5,82 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <center>
+    <header>
         <table>
-            <td><img class="hello" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHoAdwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBgMFAAIHAQj/xAA8EAACAQMCAwUFBQYGAwAAAAABAgMABBEFIQYSMRNBUWFxFCKBkaEHIzKxwUJSYnLR8BUzNEPh8Tdjgv/EABoBAAMBAQEBAAAAAAAAAAAAAAECBAMFAAb/xAAlEQACAgEDBAIDAQAAAAAAAAAAAQIRAxIhMQQTIkEyUSNhcRT/2gAMAwEAAhEDEQA/ADrXiXjL/DS7zXEkkaiRpBbRKpTPcWxmlrWdf4q1CGaP2vUJDhvaYWWMRhB3gCq/hqfVTqkN97JNPYx3CrKXZpBEuckBSfDembV9c0iO29v0fQhcA3DrHLcwELKDsT5AHbfwqDu5Yy5R2Z4sOSGnQ/1SEAHNSI+Kkvb1dQumlSwgscDlMMGeXI76hArqJ2j5+UdLaYQJiBXvbVpb281w/Z28TyP4IM1Z2+gykj2qVYwf2V95v6UJZIw5Z6GGU34oA7ajtOsb7UpBHaQM5xzZxgY8c1e6Tw4J5uS3iyR+KRxk/wBBTvZ6RFp9o6B+Xm3lfvOO6p31V/FFH+Ovm9zks8VxBntI2ABxzdR86jMjgUy605sr2RUyiyHnT0P/ADmqa7iQyF16OAw/v1Bp8OdzelidR0vaipLgA7Rqznat2VQa892qCU05jWpNbnFanFePGhNZWrdaygMkHcO8QvY6ZqcK2yTJPIoKvzZQqeoI2o9uLBpl3cWb8J2cscilUjWZ+QFsbgcu5rnaXEyK6LK4VzlgDsT51aX/ABFd3zwuY4oXh3Rocqc+PX41BLF5qSR24dRHtNOTTGrTeFNVu2muJbT2G3Zywa6PJgeSn3j8qt4OG7O3AMnNdP5+6vyG/wBasNN1ibWdE067kkMjvAomJH4pF91j8xRayAKTWeTqJrxWxlj6aEvOW9gfYlQsMUaxx9yIuB9KMtdO55OXGMdTUluQQGlZVDNhcnGfIfWri1idbdjGg5jkqPPuzU6Tk9ylyUFsE23JbwhIYwBjurSZhK/I8ihsbIHGcelI2kfaQp1x9O1yyWwUv2QbnJ7Jwf28gbHxxt6bgLhe8k4h+0u7vAXa3gWRkwOYcoxGuPUEmqu263JNa5GPi7TEe3t7rfKMUO/UHcfkfnSjcIzQLyoych5d8nrXT9UtvarCe3blDMhC5bfm6jp51zyI9rzwvgc3QeBFDE9GRMfMteFopZImPnUTROO44piXS2YZH4axtKkIAAzXTo4etC12beBrzs286aI9DmbfsyfSjV4cKoGkiY57s16j3cEkxN4VlOUmjwR/5lnOPMDasrwe6ciflDnG4PdWuD4VOsYIZiOhxUbsTtk1MdE6N9mc3a6JdWjHJhn7RP5WGD9R9aJ4n1yfRLm0CwdpDK3v/wAQHUA9xFQfZZpV09lcaiCotjzRNvuTsdh64q/1TTbbVLJ7W8TKncEfiRu4jzqXLGKyJvhlGCblBxXKFS91ePVOJ9NGnSs8HaQBQPEuM5898fCuwIH2EZVF8cZNfPCteaNrXNZyI8tlcHDshKsV8R4V1nQOKp9Z04NNaezyr+J0JKP5qT+VGcVFKgxbkyv+1TQtOm0mbWVkaK/twAZMA9sCQApHjvsfz7kr7PeIhw3c3RvUPYXYQO4OXQLkg47xvv6V0HiPTZ9e0w2kMioe0DnnzhsZwPnvUA4GsL/hy0tLxTFdwx7XEX4lYnJH8S57vyowyJxpglCpWhq06SK+hiuoJUlgkHMjKcg/GkPXIv8AD9euABgdp2i+h3/XFE8HcO65w3qbRrcCSwf8aqfcc/vcv7Len1o3jy0++tr1B1HZN+Y/WklGuBsc7dMOhVZYUZOhAPSvfZWY7ZFG8FXCXOj9m6Bnhflzju6j9auJiwGOzQ+ddGE9UUzh5cWmbQuiGWIZWUit47u8j/DMCP4qJvTN/t2yn/6qsuJJ1XHs+D5GnsSgi61fUCuG7Nh5qKyqG7lue+GT4CsrwNzkzq/Y8+fdJ7jURPTFWEkajtOzQBc5A8KgsiiXcbyIroG3VhsamvY7DhTpjPwZqBtLCVe0ZcShwM7ZrpDMsgWWPdJAHX0O9c209IxzlI1QE55V6CnzQZfaNIiz1gJiP5j6H6VnnjcEwYHozNfYu8M6LeWvF11d3EREDvMyMdwck4+hNF8YcWW+hN7HYRRzXmMsp/BED0zjqfL6+Nxqmof4ZptxdkAmNPcB726AfOkfg3hs6xdy6vrH30AckK/+9JncnyHh+mc4xqXlLgolcdokWn69x3qjdppgndGOV7K0j5Pmy7/Oruw481fTbtbXivTXiVthIIzGw88dG+GK6HpKqHOAAEUADwFb3ltDdloriJJYW6o6hlPwNPqTXBm00+SLRb+z1SyW6sbhZoicEjYqfAjqDUXElsLrRrhAMug519RvQ2n8K2Wl3RudL7S3LHLR8xZT8+7yq/Mfu8rAYI3Fea2pCqW9iZwfP2NzJEWKrIu2PEUztMeY5kYju3pQ7L/DtSaMk/dyFR4kd30pkSxuJRzIBjuDMAT8K36d3GiXrl+S17Nby8VRhX97zoFtQXvI28qjureVJ+SVGQj9lhg0DeoVTaqaIrZaJrFnjlmMm37oFZStIjjoTXtDSG2JNv2amTt4y6lSAAcYONjUQiRph7gAHhWxYtMR3AiioQnaSc2B7u3rUqOzNWHaawSMgDamrhW5xPcWxOBJHzr5lf8Agn5Uo2RJUgVa6VcGz1G1uG/Akg5yf3Ts30Jp2tUKJLqeobtSsFv7YQSOyLzZPKBv86ntbeK0tY4IxiOIcoFGzQFGwQaHIPOR3nxrn78HStclhYNhnHntR6tnooqkhvrSzbtL65gto+Xd5pAg+ZoPUOP9Fs4g1otxqDHYGFOWPI/jbA+WaoxxbRNkkkxujDEgH8qF1jV9O0vlW9ulWYjKQIOeV/RBvjz6VzefiriLiBuWErpVgfdJtstI58A5/MAUXo2lQrLJI3KscbEyyO2TI3gSdyemTW6xe2SSz06jyWsNw1zqcupSwdghQLGjkFl8z3ZPgM48asobwycxjLgDv5eYml241yOS5NrpFnLqFwvunlyEj/mPQD1NFW6XjFH1e5SRhuLW32Qep76ekkLvJjHFL26CC8DGIj3XOxXzGaWtVR4bhrd2HNHsT3HwI+FWXO80gLHGD8BUWtW/bex3G+6NEw/lO30I+VGEvQmXFSsXpCQcE5ryjZLQr0PWsrQyVHOLeF571IY8c8jqq5OBk+dFXFtLa381vJy88Z5Wwcj4UHA0k86QQoWd2CKF6sT0oieGe0v3tbiJknU8pjI97PhUvs68mtJdcOWwvrmK0SNnmmcJGAcbnx8q6JFwZpOluraxK1yH2BBKRK3gxznfuOwql+zLhfUDdWuuXIFvbRO/IkgPPKcFdh3DJ6nw6d9dGvoVvbN4ZUB5wRg1pdIie8ij1r2UQI8D3GO0SNRFIcnORg+GMbmqO24Nnvbm4ur7XL5bFX5YkExXm8yQfT615bdpHqtxCWIQR5AOdmbK/lzVeya1a6dByyNgQPkgDd2K7KPnmkrc0T2oUNZ4b0qC5imsbZERWKzNcrnth4rvnPmfE1WRxxTWyr9xH2AKT8nSJCWYFcjcnpnxBNea7xpdQ6tFNIkHsm7SWwOcr0Px8P0pluLc6hNZ2Vmqm0mzLM67kxlevmc4A88U8WkjPJGTAdDsp9RjLwQntPwxDbCD17sb0zTaFY2+nLDd5lxv2aMQCfM9TV3pthHa2i28VuIIVGyc2SfMnvNV+uXSqpgijIOevT5UXKwRxqP9KP3IkW2t444Yl2EaLygfKvUj6kevStoY1xzNnJ36+VbyTcgyF6Ugyb9EkMfKd9/SpLhRNZODnMEoJPkw/qBWkR6fWp7JO2NxCRnto8fEZI+opo8gmvEpZiqbA/SsrS6ARxgA57jWVqTpI5voWjXusa5HYaPiSYsHWXJVUUYy5PcB/e9d10nStM4dLHtBJfyD7++n3llPfjqQPIUi/ZqBovC+pa0tvI9zLdJbdeX3FUNgHwyxzjwAo694ima5VpdLgcAZAy25Ped8E+orGiyTttDPqd1bapplyJ2ul7HLK4jZWJHQqcUq6RxHcWF4rXls8kZHuypGeZvHIrePW7qeblt7Jozj8bOz8voDsPlV/HrNzawhrh+0IGcbA/E0RLRTawzyz+02UE0skgIMaRPzL3jIxnuPzqtvuFtd1jih54RFFZG1iPNO+CjFV5vdGTnI8ANhvTCusma5FxcTcuDzCNW2H9a9k4hs4HuLkSffSryoo6KPM/CgFcizrH2eaddX8Kya5OpKc0krRqyt1BCjI5egx176eND05tLsLe305JJeziEXbXACnlXp881WWGnXQks9TumhjtEPO6SE8zL1G2KL1DimMK6RFU7uYmvDNlpq+oizhjAdTcEjYb4HfVBK4nYzNnJOcVXxX1tK8jEFz1LGvLi6M5wuSo7umK8ITSy+GMY7q9Rmbru52NDo3MuSuNsYzU0DEYKkg+dAZKgp27OPc9e6ptOdo7u3cdOYBvSq5pRO/XYdKOgcQgM/cM+tFCyd7IF1DiTSY0kt7nT+aSOZgpTAGASMGspd46i063t2FlHcDU2vZe2dv8tkySMD0K/Wsphd1yMGhz2el/Z5oaTQPdG4iNwUz1dmJJz5dPhVNJxHHHzGPTmVeqht6Jtf/H3D57xHKB5DnNLyklGySevX+WgOFtxNcc/3UAVRvjl/vyoSTXrooffyP3cVBc7yEHf+xWrKOVdh1Feobb6ILrWLgplVAGSSWFWPDvDuo8SQG5vL4WFkR7jcuXkHiPL8/rS/rW0T42/s10232sVUdBFsPDYUJPSFKyLiXXjdRRWFqxKQ4Uu495yBjJqjitpZiPaJMJ3t1FZKAb19vCtNXYrFIFJAwdgaFh0+guO8i5vZbMe4m7tjrUUeodkJHdByK3d3j/qgdKA+82H4DWq/6af0/ShY6groZdNvYL+Pmjbu+INeahdrb28uColAx1wcHbPl61zy6mlg02F4ZXjb2hBlGINL97eXU91Ks1zNIrM3MHckHBOKZKxGtLOhScWW1qClpG12/LkFdlz69/wFb6Vreo35WS8aNUB5lSJCPzJ/7pT0/YWRHXD00WoAupCNjn9DQkGCSLbiW2gk1FJ0Z+1mhSSVW6K3KBt8BWVJxH/qIz/6I/yrKdcEsrbP/9k=" alt="browser looks at while searching keywords" width="200" height="200" radius="100%"></td>
+            <td><img class="hello" src="yash.jpg" alt="browser looks at while searching keywords" width="200" height="200" radius="100%"></td>
             <td><h1 class="hey">Yash Uskelwar</h1>
                 <p><i>I am a student of life :) </i></p>
                 <p><em>I am a student of life :)</em></p></td>
         </table>
-        <hr>
+    </header>
+    <hr>
+
+    <section>
         <h3>Education</h3>
         <ul>
-            <li>Schooling : BVM SKN</li>
-            <li>Then Higher education : IIT-HOME </li>
-            <li>Engineering : VESIT</li>
+           <li>Schooling : BVM SKN</li>
+           <li>Then Higher education : IIT-HOME </li>
+           <li>Engineering : VESIT</li>
         </ul>
-        <a href="hobbies.html">Hobbies</a>
-        <br><br>
-        <a href="contact.html"> Contact info</a>
-        <hr>
+    </section>
+    <hr>
+    <section>
         <h3>timeline</h3>
-        <table class="hello">
-            <thead>
-                <tr>
-                    <th>date</th>
-                    <th>activity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2006-2019</td>
-                    <td>schooling</td>
-                </tr>
-                <tr>
-                    <td>2019-2021</td>
-                    <td>jee preps</td>
-                </tr>
-                <tr>
-                    <td>2021-present</td>
-                    <td>engineering</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>links</h3>
-        <a href="https://www.instagram.com/">instagram ;)</a>
-        <h3>Skills</h3>
-        <table border="1">
+    <table class="hello">
+        <thead>
             <tr>
-                <td>
-                    <table>
+                <th>date</th>
+                <th>activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2006-2019</td>
+                <td>schooling</td>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <td>jee preps</td>
+            </tr>
+            <tr>
+                <td>2021-present</td>
+                <td>engineering</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    <hr>
+    <h3>links</h3>
+    <a href="https://www.instagram.com/">instagram ;)</a>
+    <h3>Skills</h3>
+    <table border="1">
+        <tr>
+            <td>
+                <table>
+                <tr>
+                    <td>kind</td>
+                    <td>*****</td>
+                </tr>
+                <tr>
+                    <td>programming</td>
+                    <td>***</td>
+                </tr>
+            </table></td>
+            <td>
+                <table>
                     <tr>
-                        <td>kind</td>
+                        <td>Guitar</td>
                         <td>*****</td>
                     </tr>
                     <tr>
-                        <td>programming</td>
-                        <td>*</td>
+                        <td>Car</td>
+                        <td>***</td>
                     </tr>
-                </table></td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Guitar</td>
-                            <td>*****</td>
-                        </tr>
-                        <tr>
-                            <td>Car</td>
-                            <td>***</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <footer><a href="index1 - Copy.html">Forms</a></footer>
-    </center>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <a href="hobbies.html">Hobbies</a>
+        <br><br>
+        <a href="contact.html"> Contact info</a>
+    </footer>
 </body>
 </html>
