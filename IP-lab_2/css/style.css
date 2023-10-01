@@ -1,0 +1,100 @@
+body{
+    background-color: #F5EAEA;
+    font-size: large;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #FFB84C;
+    width: 15%;
+}
+h1{
+    color: #F16767;
+}
+h2{
+    color: #F16767;
+}
+/* is this a comment? yes it is ...*/
+/* so there are three ways to style up 
+   1 inline css : highest priority 
+   2. internal css
+   3. external css: lowest priority(which is this css page)*/
+
+/*And in this external css too there can be priorities set for different tags using class and ids 
+  multiple attributes can be clubbed in the class to make similar change 
+  but on;y one attribute can be changed useing id (and hence not widely used )*/
+
+  /*Class*/
+  .hello{
+    background-color:pink;
+    padding-left: 25px;
+    padding-right: 90%;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    width: 1450px;
+    text-align: center;
+  }
+
+  /*ids*/
+  #hey{
+    align-items: center;
+  }
+
+  img{
+    width: 200px;
+    aspect-ratio: auto 200 / 200;
+    height: 200px;
+}
+  /* table {
+  width: 200px;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+ } */
+
+
+  section{
+    margin: 100px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .hedd{
+    margin: 100px;
+    display: flex;
+  }
+
+  .hed{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-right: 50%;
+    padding-left: 10%;
+    background-color:pink;
+  }
+
+  section{
+    margin-top: 50px;
+  }
+
+  figure{
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 100px;
+    margin-top: 75px;
+    padding-right: 0px;
+    border-right-width: 100px;
+    height: 100px;
+    width: 400px;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  ul li::marker {
+    color: red;
+  }
+  
