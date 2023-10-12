@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Forms.css">
+    <title>Customized T-Shirt Order Form</title>
+</head>
+<body >
+        
+    <header>
+    <h1>Form for Customized T-Shirt Order</i></h1>
+    </header>
+    <form onsubmit="return validateForm()" >
+        <label for="tagline"><i>Tagline on the Shirt:</i></label>
+        <input type="text"  name="tagline" required><br><br>
+        <label for="color"><i>Color:</i></label>
+        <select id="color" name="color" required>
+            <option value="">Select Color</option>
+            <option value="B">Black</option>
+            <option value="G">Green</option>
+            <option value="Y">Yellow</option>
+            <option value="BL">Blue</option>
+        </select><br><br>
+        <label for="size"><i>Size:</i></label>
+        <select id="size" name="size" required>
+            <option value="">Select Size</option>
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+            <option value="XL">Extra Large</option>
+        </select><br><br>
+        <label for="quantity"><i>Quantity:</i></label>
+        <input type="number" id="quantity" min="1" max="10" required><br><br>
+
+        <label for="delivery_date">Date of Delivery:</label>
+        <input type="date" id="delivery_date"  required><br><br>
+
+        <label for="address">Address</label><br>
+        <textarea id="address" name="address" rows="7" cols="50"></textarea><br><br>
+        <footer>
+        <input type="submit" value="Place Order" onclick="validateForm()">
+        </footer>
+    </form>
+    <script src="Forms.js">
+    </script>
+</body>
+</html>

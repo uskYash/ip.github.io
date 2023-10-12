@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customized T-Shirt Order Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form" id="form-container">
+        <h1>Customized T-Shirt Order Form</h1>
+        <form action="#" onsubmit="return validateForm();" class="form-body">
+                  <label for="tagline"> <h3>Tagline:</h3> </label>
+                  <input
+                    type="text"
+                    id="tagline"
+                    name="tagline"
+                    required
+                    placeholder="Enter Tagline"
+                  /> <br>
+                  <label for="color"><h2>color</h2></label>
+                  <select id="color" name="color" required>
+                    <option value="">Select Color</option>
+                    <option value="Black">Black</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Blue">Blue</option>
+                </select><br>
+                  <label for="size">
+                    <h3>Size:</h3>
+                  </label>
+                  <select id="size" name="size" required>
+                    <option value="">Select Size</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                  <label for="quantity"><h3>Quantity:</h3></label>
+                  <input
+                    type="number"
+                    id="quantity"
+                    name="quantity"
+                    min="1" max="20"
+                    required
+                    placeholder="Enter Quantity"
+                  />
+                  <label for="delivery_date">
+                    <h3>Delivery Date:</h3>
+                  </label>
+                  <input
+                    type="date"
+                    id="delivery_date"
+                    name="delivery_date"
+                    required
+                    placeholder="Delivery Date"
+                  />
+                  <label for="delivery_date"><h3>Contact No:</h3></label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                  />
+                  <label for="delivery_details"><h3>Address:</h3></label>
+                  <textarea
+                    id="delivery_details"
+                    name="delivery_details"
+                    rows="4"
+                    cols="35"
+                    placeholder="Address"
+                  ></textarea>
+          <div>
+            <input type="submit" value="Place Order" class="buttons" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="Forms.js"></script>
+  </body>
+</html>
