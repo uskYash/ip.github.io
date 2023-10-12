@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 body{
     background-color: #F5EAEA;
     font-size: large;
@@ -18,17 +24,7 @@ h1{
 h2{
     color: #F16767;
 }
-/* is this a comment? yes it is ...*/
-/* so there are three ways to style up 
-   1 inline css : highest priority 
-   2. internal css
-   3. external css: lowest priority(which is this css page)*/
 
-/*And in this external css too there can be priorities set for different tags using class and ids 
-  multiple attributes can be clubbed in the class to make similar change 
-  but on;y one attribute can be changed useing id (and hence not widely used )*/
-
-  /*Class*/
   .hello{
     background-color:pink;
     padding-left: 25px;

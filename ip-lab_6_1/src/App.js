@@ -1,17 +1,19 @@
-import { Button } from 'bootstrap';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as router, Route, Switch, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
-        function fun(){
-          alert("You clicked???")
-        }
-      
-      return(
-        <div className='App'>
-          <h1>Hello there</h1>
-          <Button onClick={fun}>Dont click</Button>
-        </div>
-      );
+  return (
+    <Routes>
+      <div>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+      </div>
+    </Routes>
+  );
 }
 
 export default App;

@@ -39,10 +39,10 @@ function performCalculation() {
   errorDiv.innerHTML = "";
 
   calculate(num1, num2, operation)
-    Promise.then(result => {
+    .then(result => {
       resultDiv.innerHTML = `Result: ${result}`;
     })
-    Promise.catch(error => {
+    .catch(error => {
       errorDiv.innerHTML = `Error: ${error}`;
     });
 }
