@@ -21,7 +21,6 @@ numbers[Symbol.iterator] = function () {
   return new SquareIterator(numbers);
 };
 
-// Use a for...of loop to iterate and print squares
 for (const square of numbers) {
   console.log(square);
 }

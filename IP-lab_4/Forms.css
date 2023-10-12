@@ -5,13 +5,24 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: aquamarine;
   }
   
-  #forms {
+form{
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #4b10b9;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* display: flex ; */
   }
-  
+
+header{
+    margin-right: 75px;
+}
+
+border{
+    width: 5px;
+    
+}
+

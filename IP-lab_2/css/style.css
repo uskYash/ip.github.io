@@ -7,26 +7,26 @@
 } */
 
 body{
-    background-color: #F5EAEA;
+    background-color: #d4abe2;
     font-size: large;
 }
 hr{
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
-    border-color: #FFB84C;
+    border-color: #140a6a;
     width: 15%;
 }
 h1{
-    color: #F16767;
+    color: #1a067f;
     font-family: 'Roboto Slab', serif;
 }
 h2{
-    color: #F16767;
+    color: #1d055d;
 }
 
   .hello{
-    background-color:pink;
+    background-color:rgb(177, 154, 235);
     padding-left: 25px;
     padding-right: 90%;
     padding-top: 25px ;
@@ -41,9 +41,11 @@ h2{
   }
 
   img{
+    margin-top: 40px;
     width: 200px;
     aspect-ratio: auto 200 / 200;
     height: 200px;
+    border-radius: 100%;
 }
   /* table {
   width: 200px;
@@ -71,7 +73,7 @@ h2{
     margin-top: 20px;
     padding-right: 50%;
     padding-left: 10%;
-    background-color:pink;
+    background-color:rgb(140, 60, 202);
   }
 
   section{
@@ -96,6 +98,3 @@ h2{
   ul li::marker {
     color: red;
   }
-
-  
-  
