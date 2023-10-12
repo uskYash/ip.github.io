@@ -27,7 +27,7 @@ function validateForm() {
   return false; // Prevent form submission for now
 }
 
-function generateReceipt() {
+ generateReceipt = () => {
   var receiptDate = new Date().toLocaleDateString();
   var receipt = `
     Order Receipt

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Forms.css">
     <title>Customized T-Shirt Order Form</title>
   </head>
   <body>
@@ -26,15 +27,13 @@
                     <option value="Yellow">Yellow</option>
                     <option value="Blue">Blue</option>
                 </select><br>
-                  <label for="size">
-                    <h3>Size:</h3>
-                  </label>
+                  <label for="size"><h3>Size:</h3></label>
                   <select id="size" name="size" required>
                     <option value="">Select Size</option>
                     <option value="small">Small</option>
                     <option value="medium">Medium</option>
                     <option value="large">Large</option>
-                  </select>
+                  </select><br>
                   <label for="quantity"><h3>Quantity:</h3></label>
                   <input
                     type="number"
@@ -43,7 +42,7 @@
                     min="1" max="20"
                     required
                     placeholder="Enter Quantity"
-                  />
+                  /> <br>
                   <label for="delivery_date">
                     <h3>Delivery Date:</h3>
                   </label>
@@ -53,7 +52,7 @@
                     name="delivery_date"
                     required
                     placeholder="Delivery Date"
-                  />
+                  /> <br>
                   <label for="delivery_date"><h3>Contact No:</h3></label>
                   <input
                     type="tel"

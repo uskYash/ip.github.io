@@ -27,7 +27,7 @@ class Student extends Person {
   }
 }
 
-function createObject() {
+createObject = () => {
   let age = document.getElementById("age").value;
   let name = document.getElementById("name").value;
   let rollno = document.getElementById("rollno").value;
