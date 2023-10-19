@@ -1,19 +1,21 @@
-import React from 'react';
-import { BrowserRouter as router, Route, Switch, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import React from 'react'
+// import Header from './components/Header'
+import { Routes ,Route} from 'react-router-dom'
+import About from './components/About'
+import Contacts from './components/Contacts'
+import Parent from './components/Parent'
 
-function App() {
+
+
+export default function App() {
   return (
-    <Routes>
-      <div>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-      </div>
-    </Routes>
-  );
+    <>
+            <Routes>
+                <Route path="/home" element={<Parent/>}></Route>
+                <Route path="/about" element={<About/>}></Route>
+                <Route path="/contacts" element={<Contacts/>}></Route>
+                <Route path="/" element={<Parent/>}></Route>
+            </Routes>
+        </>
+  )
 }
-
-export default App;
